@@ -1,4 +1,4 @@
-# React TypeScript template with Vite
+# React TypeScript template with Vite & PWA support
 
 [![react](https://img.shields.io/github/package-json/dependency-version/xieQin/react-ts-template/react)](https://github.com/facebook/react) ![react-router-dom](https://img.shields.io/github/package-json/dependency-version/xieQin/react-ts-template/react-router-dom) [![zustand](https://img.shields.io/github/package-json/dependency-version/xieQin/react-ts-template/zustand)](https://github.com/pmndrs/zustand) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/xieQin/react-ts-template/blob/main/LICENSE.md)
 
