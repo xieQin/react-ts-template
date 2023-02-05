@@ -41,6 +41,14 @@ export default function HelloWorld(props: HelloWorldProps) {
         |{" "}
         <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
           React Docs
+        </a>{" "}
+        |{" "}
+        <a href="https://reactrouter.com" target="_blank" rel="noreferrer">
+          React Router Docs
+        </a>{" "}
+        |{" "}
+        <a href="https://zustand-demo.pmnd.rs" target="_blank" rel="noreferrer">
+          Zustand Docs
         </a>
       </p>
 
