@@ -1,12 +1,11 @@
-import { getRandom } from "..";
+import { Add } from "@/utils";
 
 describe("utils work well", () => {
-  it("getRandom work well", () => {
-    const data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    const res1 = getRandom(2, data, false);
-    const res2 = getRandom(3, data, true);
+  it("Add work well", () => {
+    const res1 = Add(2, 3);
+    const res2 = Add(3, 1);
 
-    expect(res1).toHaveLength(2);
-    expect(res2).toHaveLength(3);
+    expect(res1).toBe(5);
+    expect(res2).toBe(4);
   });
 });
