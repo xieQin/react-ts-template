@@ -12,7 +12,7 @@ function ReloadPrompt() {
   // replaced dynamically
   const buildDate = new Date().toISOString();
   // replaced dyanmicaly
-  const reloadSW = "__RELOAD_SW__";
+  const reloadSW = import.meta.env.VITE_RELOAD_SW;
 
   const {
     offlineReady: [offlineReady, setOfflineReady],
@@ -22,7 +22,7 @@ function ReloadPrompt() {
     onRegisteredSW(swUrl, r) {
       // eslint-disable-next-line no-console
       console.log(`Service Worker at: ${swUrl}`);
-      if (reloadSW === "__RELOAD_SW__") {
+      if (reloadSW === "true") {
         r &&
           setInterval(() => {
             // eslint-disable-next-line no-console
