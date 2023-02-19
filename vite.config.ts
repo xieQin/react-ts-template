@@ -10,6 +10,7 @@ import { PWAConfig, replaceOptions } from "./src/configs/pwa";
 // https://vitejs.dev/config/
 export default ({ mode }: { mode: string }) => {
   process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
+  const pwaOn = process.env.PWA_ON === "true";
 
   return defineConfig({
     build: {
@@ -18,8 +19,8 @@ export default ({ mode }: { mode: string }) => {
     plugins: [
       legacy(),
       react(),
-      VitePWA(PWAConfig),
-      replace(replaceOptions) as PluginOption,
+      pwaOn ? VitePWA(PWAConfig) : [],
+      pwaOn ? (replace(replaceOptions) as PluginOption) : [],
     ],
     resolve: {
       alias: {
