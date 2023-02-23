@@ -18,7 +18,13 @@ export default ({ mode }: { mode: string }) => {
     },
     plugins: [
       legacy(),
-      react(),
+      react({
+        babel: {
+          parserOpts: {
+            plugins: ["decorators-legacy", "classProperties"],
+          },
+        },
+      }),
       pwaOn ? VitePWA(PWAConfig) : [],
       pwaOn ? (replace(replaceOptions) as PluginOption) : [],
     ],
