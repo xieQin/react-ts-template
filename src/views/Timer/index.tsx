@@ -3,6 +3,7 @@ import { observer } from "mobx-react";
 
 import { useInterval } from "@/hooks";
 
+@observable
 export class TimerStore {
   secondsPassed = 0;
   @observable current = 0;
