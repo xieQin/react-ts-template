@@ -6,7 +6,7 @@ export default function HomePage() {
   return (
     <main className={styles.main}>
       <img className={styles.logo} alt="React logo" width="400px" src={Logo} />
-      <HelloWorld msg="Hello React + TypeScript + Vite + React-Router + Zustand" />
+      <HelloWorld msg="Hello React + TypeScript + Vite Template" />
     </main>
   );
 }

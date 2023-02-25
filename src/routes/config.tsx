@@ -1,9 +1,8 @@
-import { lazy } from "react";
 import { Navigate, RouteObject } from "react-router-dom";
 
+import DesignPatternsPage from "@/views/DesignPatterns";
+import HomePage from "@/views/Home";
 import { TimerPage } from "@/views/Timer";
-
-const HomePage = lazy(() => import("@/views/Home"));
 
 export const useRoutesConfig = () => {
   const routes: RouteObject[] = [
@@ -14,6 +13,10 @@ export const useRoutesConfig = () => {
     {
       path: "timer",
       element: <TimerPage />,
+    },
+    {
+      path: "design-patterns",
+      element: <DesignPatternsPage />,
     },
     {
       path: "404",
