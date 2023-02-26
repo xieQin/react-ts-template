@@ -2,7 +2,7 @@ import { Navigate, RouteObject } from "react-router-dom";
 
 import DesignPatternsPage from "@/views/DesignPatterns";
 import HomePage from "@/views/Home";
-import { TimerPage } from "@/views/Timer";
+import { MobxTimerPage } from "@/views/Mobx";
 
 export const useRoutesConfig = () => {
   const routes: RouteObject[] = [
@@ -11,8 +11,8 @@ export const useRoutesConfig = () => {
       element: <HomePage />,
     },
     {
-      path: "timer",
-      element: <TimerPage />,
+      path: "mobx",
+      element: <MobxTimerPage />,
     },
     {
       path: "design-patterns",
