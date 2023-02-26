@@ -2,7 +2,6 @@ import { useCreatePrototypeClient } from "./stores";
 
 export default function PrototypePage() {
   const { p1, p2 } = useCreatePrototypeClient();
-  console.log(p1, p2);
   return (
     <>
       <ul>

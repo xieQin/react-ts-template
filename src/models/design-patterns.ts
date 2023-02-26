@@ -3,4 +3,5 @@ export enum DesignPatterns {
   AbstractFactory = "AbstractFactory",
   Builder = "Builder",
   Prototype = "Prototype",
+  Singleton = "Singleton",
 }

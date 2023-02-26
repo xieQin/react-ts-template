@@ -2,6 +2,7 @@ import AbstractFactoryPage from "./AbstractFactory";
 import BuilderPage from "./Builder";
 import FactoryPage from "./Factory";
 import PrototypePage from "./Prototype";
+import SingletonPage from "./Singleton";
 
 export default function DesignPatternsPage() {
   return (
@@ -23,6 +24,10 @@ export default function DesignPatternsPage() {
         <li>
           <h4>Prototype</h4>
           <PrototypePage />
+        </li>
+        <li>
+          <h4>Singleton</h4>
+          <SingletonPage />
         </li>
       </ul>
     </>
