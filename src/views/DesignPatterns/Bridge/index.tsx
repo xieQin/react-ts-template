@@ -1,3 +1,11 @@
+import { useCreateBridgeClient } from "./stores";
+
 export default function BridgePage() {
-  return <>Bridge</>;
+  const { abstractionA, abstractionB } = useCreateBridgeClient();
+  return (
+    <ul>
+      <li>AbstractionA: {abstractionA.operation()}</li>
+      <li>AbstractionB: {abstractionB.operation()}</li>
+    </ul>
+  );
 }

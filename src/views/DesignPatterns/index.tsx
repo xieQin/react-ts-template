@@ -1,6 +1,7 @@
 import { DesignPatterns } from "@/models";
 
 import AbstractFactoryPage from "./AbstractFactory";
+import BridgePage from "./Bridge";
 import BuilderPage from "./Builder";
 import FactoryPage from "./Factory";
 import PrototypePage from "./Prototype";
@@ -12,6 +13,7 @@ const DesignPatternsPageConfigs = {
   [DesignPatterns.Builder]: BuilderPage,
   [DesignPatterns.Prototype]: PrototypePage,
   [DesignPatterns.Singleton]: SingletonPage,
+  [DesignPatterns.Bridge]: BridgePage,
 };
 
 export default function DesignPatternsPage() {
