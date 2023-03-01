@@ -5,4 +5,5 @@ export enum DesignPatterns {
   Prototype = "Prototype",
   Singleton = "Singleton",
   Bridge = "Bridge",
+  Decorator = "Decorator",
 }
