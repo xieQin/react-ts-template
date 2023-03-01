@@ -8,4 +8,5 @@ export enum DesignPatterns {
   Decorator = "Decorator",
   Facade = "Facade",
   Flyweight = "Flyweight",
+  Proxy = "Proxy",
 }
