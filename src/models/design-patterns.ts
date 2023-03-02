@@ -10,4 +10,5 @@ export enum DesignPatterns {
   Flyweight = "Flyweight",
   Proxy = "Proxy",
   Composite = "Composite",
+  ChainOfResponsibility = "ChainOfResponsibility",
 }
