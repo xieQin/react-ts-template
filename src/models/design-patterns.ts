@@ -9,4 +9,5 @@ export enum DesignPatterns {
   Facade = "Facade",
   Flyweight = "Flyweight",
   Proxy = "Proxy",
+  Composite = "Composite",
 }

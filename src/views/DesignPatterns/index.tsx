@@ -14,6 +14,7 @@ const DesignPatternsPageConfigs = {
   [DesignPatterns.Prototype]: PrototypePage,
   [DesignPatterns.Singleton]: SingletonPage,
   [DesignPatterns.Bridge]: BridgePage,
+  [DesignPatterns.Composite]: BridgePage,
 };
 
 export default function DesignPatternsPage() {
