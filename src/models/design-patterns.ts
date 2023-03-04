@@ -18,4 +18,5 @@ export enum DesignPatterns {
   Observer = "Observer",
   State = "State",
   Strategy = "Strategy",
+  TemplateMethod = "Template Method",
 }
