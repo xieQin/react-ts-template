@@ -14,4 +14,5 @@ export enum DesignPatterns {
   Command = "Command",
   Iterator = "Iterator",
   Mediator = "Mediator",
+  Memento = "Memento",
 }
