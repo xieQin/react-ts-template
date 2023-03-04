@@ -15,4 +15,5 @@ export enum DesignPatterns {
   Iterator = "Iterator",
   Mediator = "Mediator",
   Memento = "Memento",
+  Observer = "Observer",
 }
