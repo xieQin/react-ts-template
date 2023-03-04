@@ -12,4 +12,5 @@ export enum DesignPatterns {
   Composite = "Composite",
   ChainOfResponsibility = "ChainOfResponsibility",
   Command = "Command",
+  Iterator = "Iterator",
 }
