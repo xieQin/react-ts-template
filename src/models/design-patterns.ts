@@ -11,4 +11,5 @@ export enum DesignPatterns {
   Proxy = "Proxy",
   Composite = "Composite",
   ChainOfResponsibility = "ChainOfResponsibility",
+  Command = "Command",
 }
