@@ -17,4 +17,5 @@ export enum DesignPatterns {
   Memento = "Memento",
   Observer = "Observer",
   State = "State",
+  Strategy = "Strategy",
 }
