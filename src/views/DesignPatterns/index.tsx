@@ -5,6 +5,7 @@ import BridgePage from "./Bridge";
 import BuilderPage from "./Builder";
 import CompositePage from "./Composite";
 import DecoratorPage from "./Decorator";
+import FacadePage from "./Facade";
 import FactoryPage from "./Factory";
 import PrototypePage from "./Prototype";
 import SingletonPage from "./Singleton";
@@ -18,6 +19,7 @@ const DesignPatternsPageConfigs = {
   [DesignPatterns.Bridge]: BridgePage,
   [DesignPatterns.Composite]: CompositePage,
   [DesignPatterns.Decorator]: DecoratorPage,
+  [DesignPatterns.Facade]: FacadePage,
 };
 
 export default function DesignPatternsPage() {
