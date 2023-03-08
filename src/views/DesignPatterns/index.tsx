@@ -9,6 +9,7 @@ import FacadePage from "./Facade";
 import FactoryPage from "./Factory";
 import FlyweightPage from "./Flyweight";
 import PrototypePage from "./Prototype";
+import ProxyPage from "./Proxy";
 import SingletonPage from "./Singleton";
 
 const DesignPatternsPageConfigs = {
@@ -22,6 +23,7 @@ const DesignPatternsPageConfigs = {
   [DesignPatterns.Decorator]: DecoratorPage,
   [DesignPatterns.Facade]: FacadePage,
   [DesignPatterns.Flyweight]: FlyweightPage,
+  [DesignPatterns.Proxy]: ProxyPage,
 };
 
 export default function DesignPatternsPage() {
