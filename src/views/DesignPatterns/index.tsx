@@ -4,6 +4,7 @@ import AbstractFactoryPage from "./AbstractFactory";
 import BridgePage from "./Bridge";
 import BuilderPage from "./Builder";
 import ChainOfResponsibilityPage from "./ChainOfResponsibility";
+import CommandPage from "./Command";
 import CompositePage from "./Composite";
 import DecoratorPage from "./Decorator";
 import FacadePage from "./Facade";
@@ -26,6 +27,7 @@ const DesignPatternsPageConfigs = {
   [DesignPatterns.Flyweight]: FlyweightPage,
   [DesignPatterns.Proxy]: ProxyPage,
   [DesignPatterns.ChainOfResponsibility]: ChainOfResponsibilityPage,
+  [DesignPatterns.Command]: CommandPage,
 };
 
 export default function DesignPatternsPage() {
