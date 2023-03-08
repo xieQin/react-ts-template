@@ -10,6 +10,7 @@ import DecoratorPage from "./Decorator";
 import FacadePage from "./Facade";
 import FactoryPage from "./Factory";
 import FlyweightPage from "./Flyweight";
+import IteratorPage from "./Iterator";
 import PrototypePage from "./Prototype";
 import ProxyPage from "./Proxy";
 import SingletonPage from "./Singleton";
@@ -28,6 +29,7 @@ const DesignPatternsPageConfigs = {
   [DesignPatterns.Proxy]: ProxyPage,
   [DesignPatterns.ChainOfResponsibility]: ChainOfResponsibilityPage,
   [DesignPatterns.Command]: CommandPage,
+  [DesignPatterns.Iterator]: IteratorPage,
 };
 
 export default function DesignPatternsPage() {
