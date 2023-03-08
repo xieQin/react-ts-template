@@ -11,6 +11,7 @@ import FacadePage from "./Facade";
 import FactoryPage from "./Factory";
 import FlyweightPage from "./Flyweight";
 import IteratorPage from "./Iterator";
+import MediatorPage from "./Mediator";
 import PrototypePage from "./Prototype";
 import ProxyPage from "./Proxy";
 import SingletonPage from "./Singleton";
@@ -30,6 +31,7 @@ const DesignPatternsPageConfigs = {
   [DesignPatterns.ChainOfResponsibility]: ChainOfResponsibilityPage,
   [DesignPatterns.Command]: CommandPage,
   [DesignPatterns.Iterator]: IteratorPage,
+  [DesignPatterns.Mediator]: MediatorPage,
 };
 
 export default function DesignPatternsPage() {
