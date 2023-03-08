@@ -16,6 +16,7 @@ import MementoPage from "./Memento";
 import PrototypePage from "./Prototype";
 import ProxyPage from "./Proxy";
 import SingletonPage from "./Singleton";
+import StatePage from "./State";
 
 const DesignPatternsPageConfigs = {
   [DesignPatterns.Factory]: FactoryPage,
@@ -34,6 +35,7 @@ const DesignPatternsPageConfigs = {
   [DesignPatterns.Iterator]: IteratorPage,
   [DesignPatterns.Mediator]: MediatorPage,
   [DesignPatterns.Memento]: MementoPage,
+  [DesignPatterns.State]: StatePage,
 };
 
 export default function DesignPatternsPage() {
