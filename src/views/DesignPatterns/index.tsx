@@ -7,6 +7,7 @@ import CompositePage from "./Composite";
 import DecoratorPage from "./Decorator";
 import FacadePage from "./Facade";
 import FactoryPage from "./Factory";
+import FlyweightPage from "./Flyweight";
 import PrototypePage from "./Prototype";
 import SingletonPage from "./Singleton";
 
@@ -20,6 +21,7 @@ const DesignPatternsPageConfigs = {
   [DesignPatterns.Composite]: CompositePage,
   [DesignPatterns.Decorator]: DecoratorPage,
   [DesignPatterns.Facade]: FacadePage,
+  [DesignPatterns.Flyweight]: FlyweightPage,
 };
 
 export default function DesignPatternsPage() {
