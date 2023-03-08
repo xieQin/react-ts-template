@@ -12,6 +12,7 @@ import FactoryPage from "./Factory";
 import FlyweightPage from "./Flyweight";
 import IteratorPage from "./Iterator";
 import MediatorPage from "./Mediator";
+import MementoPage from "./Memento";
 import PrototypePage from "./Prototype";
 import ProxyPage from "./Proxy";
 import SingletonPage from "./Singleton";
@@ -32,6 +33,7 @@ const DesignPatternsPageConfigs = {
   [DesignPatterns.Command]: CommandPage,
   [DesignPatterns.Iterator]: IteratorPage,
   [DesignPatterns.Mediator]: MediatorPage,
+  [DesignPatterns.Memento]: MementoPage,
 };
 
 export default function DesignPatternsPage() {
