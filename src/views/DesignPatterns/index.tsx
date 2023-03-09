@@ -19,6 +19,7 @@ import ProxyPage from "./Proxy";
 import SingletonPage from "./Singleton";
 import StatePage from "./State";
 import StrategyPage from "./Strategy";
+import TemplateMethodPage from "./TemplateMethod";
 
 const DesignPatternsPageConfigs = {
   [DesignPatterns.Factory]: FactoryPage,
@@ -40,6 +41,7 @@ const DesignPatternsPageConfigs = {
   [DesignPatterns.State]: StatePage,
   [DesignPatterns.Observer]: ObserverPage,
   [DesignPatterns.Strategy]: StrategyPage,
+  [DesignPatterns.TemplateMethod]: TemplateMethodPage,
 };
 
 export default function DesignPatternsPage() {
