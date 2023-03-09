@@ -13,6 +13,7 @@ import FlyweightPage from "./Flyweight";
 import IteratorPage from "./Iterator";
 import MediatorPage from "./Mediator";
 import MementoPage from "./Memento";
+import ObserverPage from "./Observer";
 import PrototypePage from "./Prototype";
 import ProxyPage from "./Proxy";
 import SingletonPage from "./Singleton";
@@ -36,6 +37,7 @@ const DesignPatternsPageConfigs = {
   [DesignPatterns.Mediator]: MediatorPage,
   [DesignPatterns.Memento]: MementoPage,
   [DesignPatterns.State]: StatePage,
+  [DesignPatterns.Observer]: ObserverPage,
 };
 
 export default function DesignPatternsPage() {
