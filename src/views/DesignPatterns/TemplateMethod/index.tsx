@@ -1,7 +1,7 @@
 export default function TemplateMethodPage() {
   return (
     <ul>
-      <li>TemplateMethod: </li>
+      <li>Template Method: </li>
     </ul>
   );
 }
